@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timeline (DOM Manipulation example)</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JS -->
+    <script src="index.js" type="module" defer ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Timeline</h1>
+      <div class="actions">
+        <h2>Create a new event</h2>
+        <div class="form">
+          <div class="form-control">
+            <label for="year">Year</label>
+            <input name="year" type="number" id="year" />
+          </div>
+
+          <div class="form-control">
+            <label for="text">Text</label>
+            <textarea rows="6" name="text" id="text"></textarea>
+          </div>
+
+          <button type="button" id="add">Add</button>
+        </div>
+      </div>
+      <div class="timeline">
+        <div class="container left">
+          <div class="card">
+            <h2>2015</h2>
+            <p>
+              Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+              admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+              quis iuvaret expetendis his, te elit voluptua dignissim per, habeo
+              iusto primis ea eam.
+            </p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="card">
+            <h2>2012</h2>
+            <p>
+              Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+              admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+              quis iuvaret expetendis his, te elit voluptua dignissim per, habeo
+              iusto primis ea eam.
+            </p>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="card">
+            <h2>2011</h2>
+            <p>
+              Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+              admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+              quis iuvaret expetendis his, te elit voluptua dignissim per, habeo
+              iusto primis ea eam.
+            </p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="card">
+            <h2>2007</h2>
+            <p>
+              Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+              admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+              quis iuvaret expetendis his, te elit voluptua dignissim per, habeo
+              iusto primis ea eam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
