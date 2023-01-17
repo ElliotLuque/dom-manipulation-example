@@ -50,3 +50,16 @@ const addCardToTimeline = (year, text) => {
 
   document.querySelector(".timeline").prepend(timelineContainer);
 };
+
+// Event bubbling
+
+const wrapper = document.querySelector(".wrapper");
+const title = document.getElementById("title");
+
+title.addEventListener("click", (event) => {
+  event.stopPropagation();
+});
+
+wrapper.addEventListener("click", (event) => {
+  document.body.classList.add("animated");
+});
